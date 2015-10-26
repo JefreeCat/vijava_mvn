@@ -30,6 +30,17 @@
 		<github.global.server>github</github.global.server>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>vijava-mvn-repo</id>
+			<url>https://github.com/JefreeCat/vijava_mvn/tree/mvn-repo</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
 			<plugin>
