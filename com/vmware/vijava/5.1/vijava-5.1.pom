@@ -33,7 +33,7 @@
 	<repositories>
 		<repository>
 			<id>vijava-mvn-repo</id>
-			<url>https://github.com/JefreeCat/vijava_mvn/tree/mvn-repo</url>
+			<url>https://github.com/JefreeCat/vijava_mvn/raw/mvn-repo</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
