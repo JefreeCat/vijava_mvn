@@ -30,17 +30,6 @@
 		<github.global.server>github</github.global.server>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>vijava-mvn-repo</id>
-<!-- 			<url>https://github.com/JefreeCat/vijava_mvn/master</url> -->
-			<url>https://github.com/JefreeCat/vijava_mvn/tree/master</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
 
 	<build>
 		<plugins>
@@ -101,12 +90,6 @@
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.vmware</groupId>
-			<artifactId>vijava</artifactId>
-			<version>5.1</version>
-			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>
