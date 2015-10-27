@@ -33,7 +33,8 @@
 	<repositories>
 		<repository>
 			<id>vijava-mvn-repo</id>
-			<url>https://github.com/JefreeCat/vijava_mvn/raw/mvn-repo</url>
+<!-- 			<url>https://github.com/JefreeCat/vijava_mvn/master</url> -->
+			<url>https://github.com/JefreeCat/vijava_mvn/tree/master</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
@@ -65,7 +66,7 @@
 				<version>0.12</version>
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
-<!-- 					<noJekyll>true</noJekyll>                                  disable webpage processing -->
+					<!-- <noJekyll>true</noJekyll> disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn_vijava</outputDirectory> <!-- matches distribution management repository url above -->
 					<branch>refs/heads/master</branch>                       <!-- remote branch name -->
 					<includes>
@@ -100,6 +101,12 @@
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vmware</groupId>
+			<artifactId>vijava</artifactId>
+			<version>5.1</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>
