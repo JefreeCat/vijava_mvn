@@ -1,1 +1,0 @@
-# vijava_mvn
